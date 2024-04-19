@@ -10,3 +10,7 @@ repositories {
 application {
 	mainClass = 'application.Main'
 }
+
+run {
+    standardInput = System.in
+}
